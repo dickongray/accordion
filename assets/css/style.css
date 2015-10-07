@@ -29,3 +29,13 @@ input#one {
   display: none;
   position: relative;
 }
+
+#two:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+
+input#two {
+  display: none;
+  position: relative;
+}
