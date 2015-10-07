@@ -1,0 +1,31 @@
+#container {
+  width: 700px;
+  height: auto;
+  margin: 5em auto;
+}
+/* Start CSS of the accordion */
+
+.accordion label {
+  display: block;
+  background-color: #eeeeee;
+  padding: 0 15px;
+  color: #424242;
+  cursor: pointer;
+  border-top: 1px solid #ffffff;
+}
+
+.accordion p {
+  opacity: 0;
+  display: none;
+  background-color: #fff;
+}
+/* change id to relate to new html */
+#one:checked ~ .hiddentext {
+  display: block;
+  opacity: 1;
+}
+
+input#one {
+  display: none;
+  position: relative;
+}
